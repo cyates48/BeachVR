@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SunMelody : MonoBehaviour {
-
-    private int[] sunMelodyNotes = {5, 7, 1, 3, 1, 7};
-    private bool isPlayed = false;
+	
+	private int[] sunMelodyNotes = {5, 7, 1, 3, 1, 7};
+    	private bool isPlayed = false;
 
 	// Use this for initialization
 	void Start () {
