@@ -5,7 +5,7 @@ using UnityEngine;
 public class SunMelody : MonoBehaviour {
 	
 	private int[] sunMelodyNotes = {5, 7, 1, 3, 1, 7};
-    	private bool isPlayed = false;
+    public bool isPlayed = false;
 
 	// Use this for initialization
 	void Start () {
@@ -22,10 +22,10 @@ public class SunMelody : MonoBehaviour {
 		
 	}
 
-    void checkMelody ( params int[] controllerSequence) {
+    public void checkMelody ( params int[] ocarinaSequence) {
         bool token = true;
         for (int i = 0; i<6; i++) {
-            if (controllerSequence[i] != sunMelodyNotes[i]) {
+            if (ocarinaSequence[i] != sunMelodyNotes[i]) {
                 token = false;
                 break;
             }
