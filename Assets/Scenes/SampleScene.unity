@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4513569, g: 0.5009387, b: 0.57280505, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -538,13 +538,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.22720058, y: -0.36013207, z: 0.14706276, w: 0.8927807}
+  m_LocalRotation: {x: 0.6830127, y: 0.18301274, z: -0.18301274, w: 0.6830127}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30.771002, y: -42.115, z: 6.6130004}
+  m_LocalEulerAnglesHint: {x: 90, y: 30, z: 0}
 --- !u!114 &170076736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3189,12 +3189,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1820016040}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f7fb2d1554f1024484c3320f2dc7a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sunMelody: {fileID: 0}
+  rightHand: {fileID: 0}
+  rigidbody: {fileID: 0}
 --- !u!1 &1824171586
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,6 +3812,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2023649140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023649135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a926b035096808947a27b8c501038d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2034045190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,3 +3958,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunMelody: {fileID: 0}
+  rightHand: {fileID: 0}
+  rigidbody: {fileID: 0}
