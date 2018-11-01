@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SunMelody : MonoBehaviour {
-	
-	private int[] sunMelodyNotes = {5, 7, 1, 3, 1, 7};
+
+    private int[] sunMelodyNotes = { 1, 2, 5, 6, 1, 2 };//{5, 7, 1, 3, 1, 7};
     public bool isPlayed = false;
 
 
 	// Use this for initialization
 	void Start () {
-        transform.localRotation = Quaternion.Euler(90, 3, 0);
+        transform.localRotation = Quaternion.Euler(2, 3, 0);
 	}
 	
 	// Update is called once per frame
@@ -18,7 +18,7 @@ public class SunMelody : MonoBehaviour {
         if (isPlayed == true)
         {
             // play melody
-            transform.localRotation = Quaternion.Euler(2, 30, 0);
+            transform.localRotation = Quaternion.Euler(90, 30, 0);
         }
 		
 	}
