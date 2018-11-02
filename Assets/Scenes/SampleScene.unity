@@ -683,8 +683,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunSounds: []
-  intro: {fileID: 0}
-  sunMelody: {fileID: 0}
+  intro: {fileID: 170076738}
+  sunMelody: {fileID: 170076737}
 --- !u!82 &170076737
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4354,7 +4354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunMelody: {fileID: 0}
-  rightHand: {fileID: 0}
   rigidbody: {fileID: 0}
   cNote: {fileID: 0}
   dNote: {fileID: 0}
@@ -5120,7 +5119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunMelody: {fileID: 0}
-  rightHand: {fileID: 0}
   rigidbody: {fileID: 0}
   cNote: {fileID: 0}
   dNote: {fileID: 0}

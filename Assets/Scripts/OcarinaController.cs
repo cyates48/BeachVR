@@ -9,7 +9,6 @@ public class OcarinaController : MonoBehaviour {
     private bool isLocked = false;
 
     public SunMelody sunMelody;
-    public RightHand rightHand;
     public Rigidbody rigidbody;
     public AudioSource cNote, dNote, eNote, fNote, gNote, aNote, bNote;
 
