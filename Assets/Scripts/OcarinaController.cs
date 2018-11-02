@@ -91,13 +91,8 @@ public class OcarinaController : MonoBehaviour {
 
     void addNote(int note) {
         // Add the note to the sequence queue
-        Debug.Log("Lost note : ");
-        Debug.Log(sequenceOfNotes[0]);
         for (int i = 0; i < 5; i++)
             sequenceOfNotes[i] = sequenceOfNotes[i + 1];
         sequenceOfNotes[5] = note;
-        Debug.Log("Added note: ");
-        Debug.Log(note);
-        
     }
 }
