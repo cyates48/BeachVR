@@ -1,2 +1,2 @@
 # BeachVR
-Making a beach environment
+Making a beach environment in virtual reality.
