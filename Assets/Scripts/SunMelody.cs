@@ -21,14 +21,15 @@ public class SunMelody : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (!isPlayed && temp>1.9f)
+            sunMelody.Play();
         if (isPlayed && temp < 90.001) {
             temp += 0.05f;
             transform.localRotation = Quaternion.Euler(temp, 3, 0);
-            //sunMelody.Play();
         }
     }
 
-    public void checkMelody (params int[] ocarinaSequence) {
+    public float checkMelody (params int[] ocarinaSequence) {
         bool token = true;
         for (int i = 0; i<6; i++) {
             if (ocarinaSequence[i] != sunMelodyNotes[i]) {
@@ -37,5 +38,6 @@ public class SunMelody : MonoBehaviour {
             }
         }
         isPlayed = token;
+        return temp;
     }  
 }

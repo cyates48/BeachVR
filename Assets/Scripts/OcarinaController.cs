@@ -84,7 +84,10 @@ public class OcarinaController : MonoBehaviour {
         }
 
         // Check melodies
-        sunMelody.checkMelody(sequenceOfNotes);
+        if (sunMelody.checkMelody(sequenceOfNotes) > 89f){
+            for (int i = 0; i < 6; i++)
+                sequenceOfNotes[i] = 0;
+        }
     }
 
 
