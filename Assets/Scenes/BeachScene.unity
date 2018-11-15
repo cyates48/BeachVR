@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4034334, g: 0.42427325, b: 0.42609382, a: 1}
+  m_IndirectSpecularColor: {r: 0.35930046, g: 0.36176035, b: 0.3315374, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -588,13 +588,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.026167953, y: 0.026167953, z: -0.0006852313, w: 0.9993148}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: -0.008723475, y: 0.02617593, z: 0.00022843199, w: 0.9996193}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3, y: 3, z: 0}
+  m_LocalEulerAnglesHint: {x: -1, y: 3, z: 0}
 --- !u!114 &170076736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1386,7 +1386,6 @@ Transform:
   - {fileID: 235303839}
   - {fileID: 1907218255}
   - {fileID: 859658182}
-  - {fileID: 2095344338}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -1480,7 +1479,7 @@ GameObject:
   - component: {fileID: 515747836}
   - component: {fileID: 515747839}
   m_Layer: 0
-  m_Name: MelodyRock
+  m_Name: SunMelodyRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1540,7 +1539,8 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.14343415, z: -0, w: 0.9896599}
   m_LocalPosition: {x: -3.4133477, y: -30.242, z: -22.377718}
   m_LocalScale: {x: 16.488367, y: 16.488367, z: 16.488367}
-  m_Children: []
+  m_Children:
+  - {fileID: 2095344338}
   m_Father: {fileID: 465302619}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 16.493, z: 0}
@@ -5531,13 +5531,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095344337}
-  m_LocalRotation: {x: 0.6990877, y: 0.6990877, z: -0.106190994, w: -0.106190994}
-  m_LocalPosition: {x: -3.7436, y: -29.0302, z: -22.27}
-  m_LocalScale: {x: 0.010236621, y: 0.066355266, z: 0.06635527}
+  m_LocalRotation: {x: 0.7070904, y: 0.7070904, z: -0.004819899, w: -0.004819899}
+  m_LocalPosition: {x: -0.021059992, y: 0.07349433, z: 0.00057749584}
+  m_LocalScale: {x: 0.00062083954, y: 0.004024373, z: 0.004024374}
   m_Children:
   - {fileID: 1159681429}
-  m_Father: {fileID: 465302619}
-  m_RootOrder: 32
+  m_Father: {fileID: 515747838}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
 --- !u!64 &2095344339
 MeshCollider:

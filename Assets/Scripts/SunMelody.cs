@@ -13,7 +13,7 @@ public class SunMelody : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        transform.localRotation = Quaternion.Euler(2, 3, 0);
+        transform.localRotation = Quaternion.Euler(-1, 3, 0);
         sunSounds = GetComponents<AudioSource>();
         intro = sunSounds[0];
         sunMelody = sunSounds[1];
@@ -24,7 +24,7 @@ public class SunMelody : MonoBehaviour {
         if (!isPlayed && temp>1.9f)
             sunMelody.Play();
         if (isPlayed && temp < 90.001) {
-            temp += 0.05f;
+            temp += 0.025f;
             transform.localRotation = Quaternion.Euler(temp, 3, 0);
         }
     }
