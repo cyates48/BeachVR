@@ -43,10 +43,11 @@ public class OcarinaController : MonoBehaviour {
     void Update() {
 
         // Always check to see if it is grabbed
-        if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger)> 0.0)
+        if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) > 0.0) {
             // If you press two buttons, then lock or unlock 
             if (OVRInput.Get(OVRInput.Button.One) && OVRInput.Get(OVRInput.Button.Two))
                 isLocked = !isLocked;
+        }
 
         // If locked, hold its position
         if (isLocked) {
